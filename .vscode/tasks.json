@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build and Run Messenger App",
+			"type": "shell",
+			"command": "cd /workspaces/java-besic-to-advance/Messanger-App && mvn clean compile && mvn spring-boot:run",
+			"group": "build",
+			"problemMatcher": []
+		}
+	]
+}
